@@ -1,0 +1,12 @@
+[2023-09-10 23:57:28] production.ERROR: Undefined variable $route {"exception":"[object] (ErrorException(code: 0): Undefined variable $route at /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php:11)
+[stacktrace]
+#0 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(47): Laravel\\Lumen\\Application->handleError()
+#1 /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php(11): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#2 {main}
+"} 
+[2023-09-10 23:57:32] production.ERROR: Undefined variable $route {"exception":"[object] (ErrorException(code: 0): Undefined variable $route at /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php:11)
+[stacktrace]
+#0 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(47): Laravel\\Lumen\\Application->handleError()
+#1 /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php(11): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#2 {main}
+"} 

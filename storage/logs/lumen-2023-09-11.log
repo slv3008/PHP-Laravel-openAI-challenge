@@ -1,0 +1,155 @@
+[2023-09-11 00:14:26] production.ERROR: Target class [ChatbotController] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [ChatbotController] does not exist. at /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php:879)
+[stacktrace]
+#0 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build()
+#1 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve()
+#2 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#3 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(324): Laravel\\Lumen\\Application->make()
+#4 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction()
+#5 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#6 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute()
+#7 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#8 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#9 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#10 /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php(16): Laravel\\Lumen\\Application->run()
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"ChatbotController\" does not exist at /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php:877)
+[stacktrace]
+#0 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(877): ReflectionClass->__construct()
+#1 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build()
+#2 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve()
+#3 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#4 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(324): Laravel\\Lumen\\Application->make()
+#5 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction()
+#6 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#7 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute()
+#8 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#9 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#10 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#11 /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php(16): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2023-09-11 00:21:28] production.ERROR: Target class [ChatbotController] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [ChatbotController] does not exist. at /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php:879)
+[stacktrace]
+#0 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build()
+#1 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve()
+#2 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#3 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(324): Laravel\\Lumen\\Application->make()
+#4 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction()
+#5 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#6 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute()
+#7 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#8 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#9 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#10 /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php(16): Laravel\\Lumen\\Application->run()
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"ChatbotController\" does not exist at /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php:877)
+[stacktrace]
+#0 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(877): ReflectionClass->__construct()
+#1 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build()
+#2 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve()
+#3 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#4 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(324): Laravel\\Lumen\\Application->make()
+#5 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction()
+#6 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#7 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute()
+#8 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#9 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#10 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#11 /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php(16): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2023-09-11 00:21:44] production.ERROR: Target class [ChatbotController] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [ChatbotController] does not exist. at /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php:879)
+[stacktrace]
+#0 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build()
+#1 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve()
+#2 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#3 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(324): Laravel\\Lumen\\Application->make()
+#4 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction()
+#5 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#6 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute()
+#7 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#8 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#9 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#10 /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php(16): Laravel\\Lumen\\Application->run()
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"ChatbotController\" does not exist at /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php:877)
+[stacktrace]
+#0 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(877): ReflectionClass->__construct()
+#1 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build()
+#2 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve()
+#3 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#4 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(324): Laravel\\Lumen\\Application->make()
+#5 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction()
+#6 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#7 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute()
+#8 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#9 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#10 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#11 /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php(16): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2023-09-11 00:22:46] production.ERROR: Target class [ChatbotController] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [ChatbotController] does not exist. at /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php:879)
+[stacktrace]
+#0 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build()
+#1 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve()
+#2 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#3 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(324): Laravel\\Lumen\\Application->make()
+#4 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction()
+#5 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#6 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute()
+#7 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#8 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#9 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#10 /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php(16): Laravel\\Lumen\\Application->run()
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"ChatbotController\" does not exist at /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php:877)
+[stacktrace]
+#0 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(877): ReflectionClass->__construct()
+#1 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build()
+#2 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve()
+#3 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#4 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(324): Laravel\\Lumen\\Application->make()
+#5 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction()
+#6 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#7 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute()
+#8 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#9 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#10 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#11 /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php(16): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2023-09-11 00:27:06] production.ERROR: Target class [ChatbotController] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [ChatbotController] does not exist. at /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php:879)
+[stacktrace]
+#0 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build()
+#1 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve()
+#2 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#3 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(324): Laravel\\Lumen\\Application->make()
+#4 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction()
+#5 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#6 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute()
+#7 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#8 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#9 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#10 /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php(16): Laravel\\Lumen\\Application->run()
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"ChatbotController\" does not exist at /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php:877)
+[stacktrace]
+#0 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(877): ReflectionClass->__construct()
+#1 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build()
+#2 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve()
+#3 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#4 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(324): Laravel\\Lumen\\Application->make()
+#5 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction()
+#6 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#7 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(169): Laravel\\Lumen\\Application->handleFoundRoute()
+#8 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#9 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#10 /home/luiggi/PHP-Laravel-openAI-challenge/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#11 /home/luiggi/PHP-Laravel-openAI-challenge/public/index.php(16): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
